@@ -23,3 +23,5 @@ artifacts:
   files:
     - '**/*'
     - imagedefinitions.json
+  base-directory: /codebuild/output/srcXXX/src/  # Replace with the correct source directory path if needed
+
