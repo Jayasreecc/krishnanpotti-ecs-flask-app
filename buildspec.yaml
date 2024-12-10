@@ -21,7 +21,7 @@ phases:
   post_build:
     commands:
       - echo Creating imagedefinitions.json...
-      - printf '[{"name":"krishnanpotti-flask-app","imageUri":"975050275418.dkr.ecr.us-east-1.amazonaws.com/krishnanpotti-flask-app:latest"}]' > imagedefinitions.json
+      - printf '[{"name":"flask-app","imageUri":"975050275418.dkr.ecr.us-east-1.amazonaws.com/krishnanpotti-flask-app:latest"}]' > imagedefinitions.json
 
 artifacts:
   files:
