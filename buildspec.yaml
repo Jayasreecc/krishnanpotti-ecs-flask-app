@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - echo "Installing dependencies..."
+      - yum install -y docker
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
